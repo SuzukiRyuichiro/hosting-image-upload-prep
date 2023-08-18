@@ -4,6 +4,7 @@ class ArticlesController < ApplicationController
   # GET /articles
   def index
     @articles = Article.all
+    p ENV['HELLO']
   end
 
   # GET /articles/1
